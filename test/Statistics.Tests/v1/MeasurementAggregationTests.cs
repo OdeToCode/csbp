@@ -52,11 +52,11 @@ namespace Statistics.Tests.v1
         }
 
         private readonly List<Measurement> _data = new List<Measurement>
-                       {
-                           new Measurement() {HighValue = 10.0, LowValue = 1.0},
-                           new Measurement() {HighValue = 5.0, LowValue = 2.0},
-                           new Measurement() {HighValue = 2.0, LowValue = 1.0},
-                           new Measurement() {HighValue = 10.0, LowValue = 4.0}
-                       };
+        {
+            new Measurement {HighValue = 10.0, LowValue = 1.0},
+            new Measurement {HighValue = 5.0, LowValue = 2.0},
+            new Measurement {HighValue = 2.0, LowValue = 1.0},
+            new Measurement {HighValue = 10.0, LowValue = 4.0}
+        };
     }
 }
